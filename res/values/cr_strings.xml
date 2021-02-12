@@ -20,5 +20,5 @@
     <!-- Project-Xtended maintainer -->
     <string name="xtended_maintainer_title">Device maintainer</string>
     <string name="xtended_maintainer">Unknown</string>
-
+    <string name="maintainer_telegram_username">https://t.me/LuisG1977</string>
 </resources>

@@ -44,8 +44,12 @@
         android:title="@string/xtended_maintainer_title"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.XtendedMaintainerPreferenceController"/>
-
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.XtendedMaintainerPreferenceController">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/maintainer_telegram_username" />
+    </Preference>
+ 
     <!-- Security patch -->
     <Preference
         android:key="security_key"
