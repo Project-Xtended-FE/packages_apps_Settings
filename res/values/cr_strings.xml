@@ -21,4 +21,13 @@
     <string name="xtended_maintainer_title">Device maintainer</string>
     <string name="xtended_maintainer">Unknown</string>
     <string name="maintainer_telegram_username">https://t.me/LuisG1977</string>
+
+     <!-- Ramping ringer -->
+    <string name="ramping_ringer_duration_title">Ramping duration</string>
+    <string name="ramping_ringer_duration_summary">Time it takes to ramp to the full volume</string>
+    <string name="ramping_ringer_start_volume_title">Starting volume</string>
+    <string name="ramping_ringer_start_volume_summary">Volume level to start the ramping from</string>
+    <string name="ramping_ringer_no_silence_title">Skip silence</string>
+    <string name="ramping_ringer_no_silence_summary_on">Start ramping right when ringing starts</string>
+    <string name="ramping_ringer_no_silence_summary_off">Vibrate only for half of the duration before ramping</string>
 </resources>
