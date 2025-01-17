@@ -27,6 +27,13 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
 
+    <!-- About Phone Header -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="about_phone_header"
+        android:layout="@layout/about_phone_header_layout"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.AboutPhoneHeaderController"
+        android:selectable="false"/>
+
     <PreferenceCategory
         android:key="basic_info_category"
         android:selectable="false"

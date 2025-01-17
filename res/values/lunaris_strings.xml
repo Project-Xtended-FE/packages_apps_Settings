@@ -17,6 +17,17 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About device screen, OrionOS -->
+    <string name="orionos_version">Project-Xtended version</string>
+    <string name="orionos">Project-Xtended</string>
+    <string name="manufacture_brand">Manufacturer by</string>
+    <string name="device_codename_category_title">Codename</string>
+    <string name="my_device_info_device_details_summary">Phone Number, IMEI, and etc.</string>
+
+    <!-- About phone screen, Xtended version -->
+    <string name="about_device_name">Device</string>
+    <string name="xtended_version">Project-Xtended version</string>
+
     <!-- Xtensions -->
     <string name="x_settings_title">X-Tensions</string>
     <string name="x_settings_summary">Our customization hub</string>
@@ -295,8 +306,6 @@
 
     <!-- Wifi Display settings. The title of a menu item to disable mirroring confimration [CHAR LIMIT=40] -->
     <string name="mirroring_confirmation_disable_menu_item">Disable mirroring confirmation</string>
-
-    <string name="xtended_version">Project-Xtended Version</string>
 
     <!-- Per-app configs -->
     <string name="per_app_config_empty_text">No installed apps support current settings</string>
