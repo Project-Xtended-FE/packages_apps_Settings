@@ -16,6 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+
     <!-- Project-Xtended maintainer -->
     <string name="xtended_maintainer_title">Device maintainer</string>
+    <string name="xtended_maintainer">Unknown</string>
+
 </resources>

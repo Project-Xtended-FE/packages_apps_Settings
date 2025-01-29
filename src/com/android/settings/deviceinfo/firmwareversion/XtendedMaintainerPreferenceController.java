@@ -17,7 +17,7 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.os.SystemProperties;
+import android.content.res.Resources;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
@@ -27,8 +27,8 @@ import com.android.settings.core.BasePreferenceController;
 
 public class XtendedMaintainerPreferenceController extends BasePreferenceController {
 
+
     private static final String TAG = "XtendedMaintainerPreferenceController";
-    private static final String ROM_PROPERTY = "ro.xtended.maintainer";
 
     public XtendedMaintainerPreferenceController(Context context, String key) {
         super(context, key);
@@ -39,8 +39,7 @@ public class XtendedMaintainerPreferenceController extends BasePreferenceControl
     }
 
     public CharSequence getSummary() {
-        String rom = SystemProperties.get(ROM_PROPERTY,
-                this.mContext.getString(R.string.device_info_default));
-        return rom;
+        String maintainer = mContext.getResources().getString(R.string.xtended_maintainer);
+        return maintainer;
     }
 }
