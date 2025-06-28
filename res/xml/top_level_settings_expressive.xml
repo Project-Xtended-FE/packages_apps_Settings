@@ -33,7 +33,7 @@
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="org.lunaris.settings.LunarisSettings"
-            android:icon="@drawable/ic_settings_xtended_filled"
+            android:icon="@drawable/ic_homepage_xtended"
             android:key="top_level_xtended"
             android:order="-160"
             android:title="@string/x_settings_title"
