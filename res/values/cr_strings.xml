@@ -22,6 +22,10 @@
     <string name="xtended_maintainer_title">Device maintainer</string>
     <string name="xtended_maintainer">Unknown</string>
     <string name="maintainer_telegram_username">https://t.me/LuisG1977</string>
+    <string name="gms_services_title">Google services</string>
+    <string name="gms_services_summary">Google services and preferences</string>
+    <string name="wellbeing_title">Digital wellbeing</string>
+    <string name="wellbeing_summary">Digital wellbeing and parental controls</string>
 
      <!-- Ramping ringer -->
     <string name="ramping_ringer_duration_title">Ramping duration</string>
